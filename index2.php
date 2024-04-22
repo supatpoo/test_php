@@ -1,4 +1,14 @@
-<?php
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    php2
+    <?php
 // ข้อมูลสำหรับการเชื่อมต่อ MySQL Database
 $servername = "localhost"; // เซิร์ฟเวอร์ MySQLsss
 $username = "root"; // ชื่อผู้ใช้ MySQL
@@ -29,3 +39,5 @@ if ($result->num_rows > 0) {
 // ปิดการเชื่อมต่อ
 $conn->close();
 ?>
+</body>
+</html>
